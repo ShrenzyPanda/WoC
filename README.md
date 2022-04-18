@@ -6,6 +6,7 @@ Initially, I normalized the output values for the training and testing data, whi
 Polynomial Regression :- 
 With the help of gradient descent, the algorithm was implemented. The dataset was checked till a polynomial of degree 3. The mean squared error obtained on training sets (cost function) were 62.340740826528695 and 71.69530953845312 for degree 3 and degree 2 repectively. The MSE obtained on testing data were 301675.1939167583 and 301882.2807949841 for degree 3 and degree 2 respectively.
 The insanely high values of MSE on testing data indicate overfitting of training data in the model. Hence, regularization might be able to overcome this shortcoming.
+Low cost can never assure that our model will perform well on our testing data. The reason being over-fitting of the hypothesis on our training data and our testing data not being similar to our training data.
 
 Logistic Regression :- 
 With the help of gradient descent and one vs all classifier, the algorithm was implemented. The cost function i.e. Binary Cross Entropy was found to be equal to 2.0561311357222447. Out of 14800 testing images, the algorithm was able to predict 10142 images correctly leading to an accuracy of 68.52702702702703 %.
