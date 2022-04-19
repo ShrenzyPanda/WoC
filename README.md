@@ -1,7 +1,7 @@
 # WoC
 Linear Regression :- 
 With the help of gradient descent, the algorithm was implemented. The mean squared error on the training data (cost function) was found to be 1907.0986738107238 and on testing data, the mean squared error was found to be 2841.272510578341.
-Initially, I normalized the output values for the training and testing data, which resulted in the involvement of data leakage.
+Initially, I normalized the output values for the training and testing data, which resulted in the involvement of data leakage. Thus, normalization or standardization of only the input data must be done.
 
 Polynomial Regression :- 
 With the help of gradient descent, the algorithm was implemented. The dataset was checked till a polynomial of degree 3. The mean squared error obtained on training sets (cost function) were 62.340740826528695 and 71.69530953845312 for degree 3 and degree 2 repectively. The MSE obtained on testing data were 301675.1939167583 and 301882.2807949841 for degree 3 and degree 2 respectively.
@@ -17,8 +17,8 @@ With help of repeated list comprehensions and list.append, the algorithm was imp
 Due to the slow nature of this algorithm, its use must be restricted to small testing and training datasets.
 
 Neural Network :- 
-With the help of backpropagation, the algorithm was implemented. It involves 1 input layer, 1 hidden layer and 1 output layer. Initially, the accuracy of the algorithm was observed to be 0 % and was predicting the same output within a row. But with the help of Xaverian Initialization, the accuracy improved to 5.236486486486487 % and 5.405405405405405 when weights are initialized randomly and as ones respectively.
-The accuracy indicates the presence of a bug in implementation of Backpropagation.
+With the help of backpropagation, the algorithm was implemented. It involves 1 input layer, 1 hidden layer and 1 output layer, hence, it is a 2 Layer Neural Network. Initially, the accuracy of the algorithm was observed to be 0 % and was predicting the same output within a row. But with the help of Xavier Initialization, the accuracy improved to 5.236486486486487 %. After rechecking the backpropagation implementation, it was found that the derivative of the sigmoid function was not taken into account by me. After making the necessary changes, the accuracy boomed to 50.57432432432433 %. 
+Due to error prone nature of the algorithm, caution must be taken while computing gradient and one must check that the chain rule of derivatives is followed.
 
 K-Means Clustering :- 
 The implementation of the algorithm is incomplete.
