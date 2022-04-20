@@ -10,7 +10,7 @@ Low cost can never assure that our model will perform well on our testing data. 
 
 Logistic Regression :- 
 With the help of gradient descent and one vs all classifier, the algorithm was implemented. The cost function i.e. Binary Cross Entropy was found to be equal to 2.0561311357222447. Out of 14800 testing images, the algorithm was able to predict 10142 images correctly leading to an accuracy of 68.52702702702703 %.
-The algorithm works well for 2000 iterations with a reasonalble computation time.
+The algorithm works well for 2000 iterations with a reasonable computation time.
 
 KNN :- 
 With help of repeated list comprehensions and list.append, the algorithm was implemented. Due to the slow nature of this algorithm, I chose to consider at max 100 Testing examples. Also due to a high number of calculations Jupyter crashed in the middle of computation. Hence use of 100 Testing Examples is justified. An accuracy of 89% was obtained for the first 100 testing examples.
