@@ -17,9 +17,7 @@ With help of repeated list comprehensions and list.append, the algorithm was imp
 Due to the slow nature of this algorithm, its use must be restricted to small testing and training datasets.
 
 K-Means Clustering :- 
-I faced difficulties in the understanding and implementation of this algorithm; therefore I wrote this algorithm for one iteration and then with the help of a function, I used it for all the iterations. After clustering, I evaluated the Dunn Index for the clusters and it was equal to 0.17288231039992585.
-
-Thus it is a poor algorithm for the given dataset as indicated by the Dunn Index.
+I faced difficulties in the understanding and implementation of this algorithm; therefore I wrote this algorithm for one iteration and then with the help of a function, I used it for all the iterations. After clustering, I evaluated the Dunn Index for the clusters and it was equal to 0.17288231039992585. Thus it is a poor algorithm for the given dataset as indicated by the Dunn Index.
 
 Neural Network :- 
 With the help of backpropagation, the algorithm was implemented. It involves 1 input layer, 1 hidden layer and 1 output layer, hence, it is a 2 Layer Neural Network. Initially, the accuracy of the algorithm was observed to be 0 % and was predicting the same output within a row. But with the help of Xavier Initialization, the accuracy improved to 5.236486486486487 %. After rechecking the backpropagation implementation, it was found that the derivative of the sigmoid function was not taken into account by me. Thus, due to the violation of the chain rule of derivatives, the implementation was faulty. After making the necessary changes, the accuracy boomed to 50.57432432432433 %. After tuning the hyperparameters, an accuracy of 67.89864864864865 % was observed.  
